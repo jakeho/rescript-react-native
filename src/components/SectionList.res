@@ -25,10 +25,10 @@ external make: (
   ~stickySectionHeadersEnabled: bool=?,
   // VirtualizedList props 0.72
   ~\"CellRendererComponent": VirtualizedList.cellRendererComponent<'item>=?,
-  ~\"ListEmptyComponent": unit => React.element=?,
-  ~\"ListFooterComponent": unit => React.element=?,
+  ~\"ListEmptyComponent": React.element=?,
+  ~\"ListFooterComponent": React.element=?,
   ~\"ListFooterComponentStyle": Style.t=?,
-  ~\"ListHeaderComponent": unit => React.element=?,
+  ~\"ListHeaderComponent": React.element=?,
   ~\"ListHeaderComponentStyle": Style.t=?,
   ~debug: bool=?,
   // ~enableVirtualization: bool=?, // not working, disableVirtualization?
